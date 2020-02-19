@@ -93,7 +93,7 @@ course_list = OrderedDict(sorted(course_list.items(), key=lambda t: t[0]))
   }
 </style>
 <div class="invoices" id="invoices">
-<div id="breakdown">
+<div id="breakdown" style="overflow-y:hidden !important;">
 % if year_list:
   <h2 class="title">Invoice Breakdowns</h2>
   % if not user.is_staff:
@@ -221,6 +221,8 @@ course_list = OrderedDict(sorted(course_list.items(), key=lambda t: t[0]))
     </div>
   % endif
 % else:
-  <h3 class="title">No Invoice Data...</h3>
+  <h2 class="title">Invoice Breakdown</h2>
+  <br/>
+  <h3>No Data Available</h3>
 % endif
 </div>

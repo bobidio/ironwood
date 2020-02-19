@@ -90,12 +90,14 @@
 </%block>
 % endif
 
-<%block name="pagetitle">${_("Courses")}</%block>
+<%block name="pagetitle">${_("Search Courses")}</%block>
 
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="find-courses">
       <section class="courses-container">
         % if course_discovery_enabled:
+        <section class="browse">
+        </section>
         <div id="discovery-form" role="search" aria-label="course" class="wrapper-search-context">
           <div id="discovery-message" class="search-status-label"></div>
           <form class="wrapper-search-input">
@@ -113,11 +115,11 @@
           </form>
         </div>
 
-        <div id="filter-bar" class="filters hide-phone is-collapsed">
+        <div id="filter-bar" class="filters hide-phone is-collapsed ">
         </div>
         % endif
 
-        <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
+        <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'} " role="region" aria-label="${_('List of Courses')}">
           <ul class="courses-listing courses-list">
             %for course in courses:
             <li class="courses-listing-item">
@@ -129,7 +131,7 @@
 
 
         % if course_discovery_enabled:
-        <aside aria-label="${_('Refine Your Search')}" class="search-facets phone-menu">
+        <aside aria-label="${_('Refine Your Search')}" class="search-facets phone-menu ">
           <h2 class="header-search-facets">${_('Refine Your Search')}</h2>
           <section class="search-facets-lists">
           </section>

@@ -51,7 +51,8 @@ elif course.display_org_with_default == "edX":
 
 if course.effort and course.effort != "0.0":
     cpe_mod = " CPE Hours" if int(course.effort) > 1 else " CPE Hour"
-    cpe_string = course.effort+cpe_mod
+    if int(course.effort) != 0:
+      cpe_string = course.effort+cpe_mod
 
 %>
 

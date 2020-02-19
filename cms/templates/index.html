@@ -68,7 +68,7 @@ from openedx.core.djangolib.js_utils import (
 
 <div class="wrapper-content wrapper">
   % if user.is_active:
-  <section class="content">
+  <section class="content" style="min-height:calc(100vh - 355px);">
     <article class="content-primary" role="main">
       % if course_creator_status=='granted':
       <div class="wrapper-create-element wrapper-create-course">
