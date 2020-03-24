@@ -437,7 +437,7 @@
               <tr>
                 <td><input class="topic stealth-input" type="text" data-toggle="${loop.index}" value="${k}" /></td>
                 % if v != 0:
-                  <td width="60"><a target="_blank" href="http://10.211.55.104/admin/auth/user/${v}/change/">${v}</a></td>
+                  <td width="60"><a target="_blank" href="${settings.LMS_ROOT_URL}/admin/auth/user/${v}/change/">${v}</a></td>
                 % else:
                   <td width="60">anon</td>
                 % endif
