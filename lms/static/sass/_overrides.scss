@@ -10,10 +10,11 @@ $base-gray: rgb(0,18,28);
 $header-gray: rgb(100,100,100);
 $slate: rgb(0,60,94);
 $warning-red: rgb(176, 12, 26);
+$white: rgb(255,255,255);
 
 //Variable Overrides
-$header-bg: $off-white;
-$footer-bg: $off-white;
+$header-bg: $white;
+$footer-bg: $white;
 $homepage-bg-image: url('../images/home-bg-2.jpg');           //top banner image
 $course-header-bg: $off-white;
 $homepage-bg: $off-white;
