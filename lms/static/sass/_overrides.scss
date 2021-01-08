@@ -15,7 +15,7 @@ $white: rgb(255,255,255);
 //Variable Overrides
 $header-bg: $white;
 $footer-bg: $white;
-$homepage-bg-image: url('../images/home-bg-2.jpg');           //top banner image
+//$homepage-bg-image: url('../images/home-bg-2.jpg');           //top banner image
 $course-header-bg: $off-white;
 $homepage-bg: $off-white;
 $container-bg: $off-white;
@@ -865,7 +865,7 @@ section.home {
      background: white;
      #homepage-header {
          background-color: $hover-blue;
-         background-image: radial-gradient($off-white, $hover-blue, $slate);
+         background-image: url('../images/home-bg-2.jpg');
          .outer-wrapper {
              animation: none !important; //stop irritating homepage animation...
              padding: 60px 0;
