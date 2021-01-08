@@ -869,7 +869,7 @@ section.home {
          .outer-wrapper {
              animation: none !important; //stop irritating homepage animation...
              padding: 60px 0;
-             @media (max-width: 500px) {
+             @media (max-width: 600px) {
                   padding: 20px;
              }
              .title {
@@ -888,6 +888,8 @@ section.home {
                          text-align: center;
                      }
                      h1 {
+                         color: #fff;
+			             text-shadow: none;
                          padding-bottom: 7px;
                      }
                  }
