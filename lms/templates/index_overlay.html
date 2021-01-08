@@ -5,5 +5,5 @@ from django.utils.translation import ugettext as _
 from openedx.core.djangolib.markup import HTML, Text
 %>
 
-<h1>${Text(_(u"Welcome to {PLATFORM_NAME}").format(PLATFORM_NAME=settings.PLATFORM_NAME))}</h1>
-<p>${_("Continuing education for information security and data privacy professionals")}</p>
+<h1>${Text(_(u"Welcome to {platform_name}")).format(platform_name=settings.PLATFORM_NAME)}</h1>
+## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See https://open.edx.org for more information.
