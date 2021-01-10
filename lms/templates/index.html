@@ -7,6 +7,10 @@ from django.core.urlresolvers import reverse
 
 from openedx.core.djangolib.markup import HTML, Text
 import os
+homepageToggle = False
+
+if os.path.exists("/home/ubuntu/rankings/dump/courses.csv") and os.stat("/home/ubuntu/rankings/dump/courses.csv").st_size != 0:
+    homepageToggle = True
 
 
 %>
