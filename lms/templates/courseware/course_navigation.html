@@ -18,7 +18,7 @@ if active_page is None and active_page_context is not UNDEFINED:
 if course is not None:
     include_special_exams = (
     request.user.is_authenticated and
-    settings.FEATURES.get('ENABLE_SPECIAL_EXAMS', False) and
+    settings.FEATURES.get('ENABLE_SPECIAL_EXAMS', True) and
     (course.enable_proctored_exams or course.enable_timed_exams)
     )
 %>
