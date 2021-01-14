@@ -44,6 +44,7 @@
               % for item_num, link in enumerate(footer['legal_links'], start=1):
                 <li class="nav-item">
                   <a class="nav-link" href="${link['url']}">${link['title']}</a>
+                  <a id="work" href="/work">Work With Us</a>
                 </li>
               % endfor
               <li class="nav-legal mobile" style="display:none;">
@@ -84,7 +85,7 @@
               % for item_num, link in enumerate(footer['navigation_links'], start=1):
               <li class="nav-colophon-0${item_num}">
                 <a id="${link['name']}" href="${link['url']}">${link['title']}</a>
-                <a id="work" href="/work.html">Work With Us</a>
+                <a id="work" href="/work">Work With Us</a>
               </li>
               % endfor
           </ol>
