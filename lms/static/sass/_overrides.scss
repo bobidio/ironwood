@@ -3267,7 +3267,7 @@ footer#footer-openedx {
 	a{
         color: $off-white !important;
         }
-    color: rgba(255, 255, 255, 1);
+    background: rgba(57,51,51);
     @include noselect;
     a:hover {
         border-bottom: none !important;
