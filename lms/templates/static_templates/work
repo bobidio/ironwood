@@ -1,0 +1,1120 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Work With Us")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    
+	<!-- This site is optimized with the Yoast SEO plugin v15.6.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Work With Us | Grosvenor Engineering Group</title>
+	<meta name="description" content="Want to work with us? Discover the Grosvenor culture, values, remuneration and perks, as well as our current career openings through this page.">
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://gegroup.com.au/work-with-us/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Work With Us | Grosvenor Engineering Group">
+	<meta property="og:description" content="Want to work with us? Discover the Grosvenor culture, values, remuneration and perks, as well as our current career openings through this page.">
+	<meta property="og:url" content="https://gegroup.com.au/work-with-us/">
+	<meta property="article:modified_time" content="2020-04-14T06:52:21+00:00">
+	<meta name="twitter:card" content="summary_large_image">
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//www.google.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title=" » Feed" href="https://gegroup.com.au/feed/">
+<link rel="alternate" type="application/rss+xml" title=" » Comments Feed" href="https://gegroup.com.au/comments/feed/">
+		<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/gegroup.com.au\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://gegroup.com.au/wp-includes/js/wp-emoji-release.min.js" type="text/javascript" defer=""></script><script src="https://gegroup.com.au/wp-includes/js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="forms-for-campaign-monitor-custom_cm_monitor_css-css" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/plugins/forms-for-campaign-monitor/forms/views/public/css/app.css" type="text/css" media="all">
+<link rel="stylesheet" id="grosvenor-style-css" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="grosvenor-style-custom-css" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/css/custom.css" type="text/css" media="all">
+<link rel="stylesheet" id="grosvenor-style-public-css" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/css/public.css" type="text/css" media="all">
+<link rel="stylesheet" id="grosvenor-style-maintenance-css" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/css/maintenance.css" type="text/css" media="all">
+<script type="text/javascript" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/js/aos.js" id="grosvenor-aos-js"></script>
+<script type="text/javascript" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/js/main.js" id="grosvenor-script-main-js"></script>
+<link rel="https://api.w.org/" href="https://gegroup.com.au/wp-json/"><link rel="alternate" type="application/json" href="https://gegroup.com.au/wp-json/wp/v2/pages/694"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gegroup.com.au/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.6">
+<link rel="shortlink" href="https://gegroup.com.au/?p=694">
+<link rel="alternate" type="application/json+oembed" href="https://gegroup.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgegroup.com.au%2Fwork-with-us%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://gegroup.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgegroup.com.au%2Fwork-with-us%2F&amp;format=xml">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-104882827-1"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+ 
+
+  gtag('config', 'UA-104882827-1');
+
+</script>		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+				</style>
+		<link rel="icon" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2020/03/cropped-GE-Group-logo512x512-32x32.png" sizes="32x32">
+<link rel="icon" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2020/03/cropped-GE-Group-logo512x512-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2020/03/cropped-GE-Group-logo512x512-180x180.png">
+<meta name="msapplication-TileImage" content="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2020/03/cropped-GE-Group-logo512x512-270x270.png">
+		<style type="text/css" id="wp-custom-css">
+			.about .components__layout-11--about ul li {
+  padding: 15px 20px 20px 20px;
+  margin: 15px 0px;
+  background: #013a69 !important;
+  border-radius: 4px;
+}
+.single-post .banner.banner--home.banner-desktop,.single-post .breadcrumbs{
+	display:none!important;
+}
+.color_table table tr td{
+	padding: 5px 10px!important; 
+}
+.color_table table tr th{
+	background-color: #044c9b!important;
+	padding: 5px 10px!important; color:#fff;
+}
+.color_table table tr:nth-child(odd){background-color: #cfdcea!important;}
+
+.color_table table tr:hover {background-color: #cfdcea!important;}
+.spacetop{
+	margin-top:30px;
+}
+.postid-2618 .banner, .postid-2618 .breadcrumbs {
+    display: none !important;
+}
+.postid-2447 .banner,
+.postid-2447 .breadcrumbs{
+	display:none !important;
+}
+
+.about .components__layout-11--about .timeline__details{
+line-height: 1.4em !important;
+}
+
+  .about .components__layout-11--about ul li.timeline__featured {
+  background: none !important;
+}
+
+.about .components__layout-11--about ul li:last-child {
+  padding-bottom: 20px;
+}
+
+.work .banner__content{
+	  display: flex;
+    flex-direction: column;
+    align-self: center;
+	justify-content: flex-end;
+}
+
+.work .wrapper.flex{
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px){
+
+.page-template-home .banner.banner--home{
+      background-position: 72% center !important;
+}
+
+	.page-template-about-people .banner.banner--home{
+      background-position:33% center !important;
+}
+	
+  .page-template-about .banner.banner--home p{
+  display: none;
+}
+	
+	.banner p.content{
+  display: none;
+}
+	
+	
+	
+  .page-template-about .banner.banner--home p.title{
+  display: block;
+}
+
+  .page-template-about .banner.banner--home {
+      background-position: 53% center !important;;
+} 
+
+  .page-template-services .section__3-2{
+  background: none !important;
+}
+
+.work .banner .wrapper {
+  justify-content: flex-start !important;
+}
+
+.page-template-work .banner.banner--home {
+      background-position: 0% center !important;
+}
+
+  .page-template-work .banner.banner--home h1,
+	.page-template-work .banner.banner--home p{
+  font-size: 9.25vw !important;
+}
+
+.page-template-work .banner.banner--home span{
+  font-size: 9.25vw !important;
+}
+
+.page-template-news .banner.banner--home {
+      background-position: 71% center !important;
+}
+
+.single.single-post .banner.banner--home{
+  background-position: 71% center !important;
+}
+
+.about .components__layout-1--about ul li:nth-child(3) .icon__wrapper {
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.about .components__layout-1--about ul li:nth-child(3) img{
+  height: 100px !important
+}
+
+.about .components__layout-3--about ul li img {
+  max-width: 120px !important;
+  margin: 0 auto;
+}
+
+.about .components__layout-3--about ul li {
+  padding: 0px 15px !important;
+}
+
+.about .components__layout-4--about ul li img {
+  transform: scale(0.8);
+}
+
+.community__list li img{
+  display: table;
+  margin: auto;
+}
+
+.community__list li{
+  text-align:center;
+}
+
+.community__list li a{
+  display: inline-flex;
+}
+
+
+.work .section__3 ul .section__listing--perks{
+  padding-bottom: 22px;
+}
+
+.work .section__7.components__layout-3--about ul li{
+  padding: 22px 0px;
+}
+
+.news__col-image {
+  text-align: left;
+}
+	
+	.page-template-work .banner.banner--home p.content{
+  width: 100%;
+	display: none !important
+}
+
+}
+
+@media screen and (max-width: 425px){
+
+.banner.banner--home {
+      background-position: 64% center !important;
+}
+
+		.page-template-about-people .banner.banner--home{
+      background-position:38% center !important;
+}
+	
+.page-template-home .banner.banner--home{
+      background-position: 48% center !important;
+}
+
+.page-template-work .banner.banner--home {
+      background-position: 10% center !important;
+}
+	
+	.page-template-work .banner.banner--home p.title{
+		font-size: 2em !important;
+	}
+
+.page-template-work .banner.banner--home p.content{
+  width: 100%;
+	display: none !important
+}
+
+.page-template-news .banner.banner--home {
+      background-position: 71% center;
+}
+
+.page-template-services-fire .banner.banner--home {
+      background-position: 74% center;
+} 
+
+.page-template-about-people .banner.banner--home {
+      background-position: 37% center;
+}
+
+.banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.25);
+}
+
+  .page-template-work .banner.banner--home h1,
+	.page-template-work .banner.banner--home p{
+  font-size: 1.8em !important;
+}
+
+.page-template-work .banner.banner--home span{
+  font-size: 1.1em !important;
+}
+}
+
+.footer__bottom {
+  padding: 10px 0 !important;
+}
+
+.footer__bottom p {
+  color: #333 !important;
+  font-size: 14px !important;
+}
+
+@media screen and (max-width: 800px){
+
+.banner h1, .banner p.title {
+  font-size: 9.25vw !important;
+  width: 100% !important;
+	line-height: 1.3em !important;
+}
+
+.banner__content{
+  align-items: flex-start !important;
+}
+
+.about .components__layout-3--about ul li .icon__text {
+  font-size: 15px;
+  line-height: 1.5em;
+}
+	
+	.about .components__layout-1--about ul li .icon__text {
+    font-size: 17px;
+    line-height: 1.4em;
+}
+	
+	.work .section__3 ul li p {
+    font-size: 15px!important;
+    line-height: 1.4em!important;
+}
+
+
+}
+
+@media screen and (max-width: 390px){
+
+.banner ul li a.btn.btn--green.btn__cta, .work a.btn {
+  width: 50%;
+}
+
+.about .components__layout-1--about ul li .icon__text {
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+.about .components__layout-3--about ul li {
+  padding: 0px 10px !important;
+}
+
+.about .components__layout-3--about ul li .icon__text {
+  font-size: 14px;
+  line-height: 1.4em;
+
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+.banner h1, .banner p.title {
+  font-size: 9.25vw !important;
+  width: 80% !important;
+	line-height: 1.3em !important;
+}
+
+.services .section__1 .section__table table {
+  width: 100% !important;
+}
+.services .section__1 table tr td:first-child {
+  padding-left: 10px;
+}
+
+.about .components__layout-5--about .components__bottom-text {
+  margin-bottom: 10px;
+}
+
+.about .components__layout-3--about .component__hashtag, .work .section__7.components__layout-3--about .component__hashtag{
+  border-top: 0px solid #0d407e;
+  display: flex;
+  justify-content: center !important;
+}
+
+.work h3 {
+  font-size: 16px!important;
+}
+
+.work p {
+  font-size: 15px!important;
+  line-height: 1.4em!important;
+}
+
+.work .section__7.components__layout-3--about ul li {
+  padding: 10px;
+}
+
+.home .components h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.work .section__4 ul li{
+  padding: 0px 10px;
+}
+
+.work .section__4 ul li h3{
+  font-size: 16px !important;
+}
+
+}
+
+.contact__content a{
+  text-decoration: none;
+  }
+
+
+.bottom-banner {
+	height: auto;
+	background-size: cover;
+	background-size: cover;
+}
+
+.bottom-banner .banner__content{
+	padding-bottom: 122px;
+	padding-top: 122px;
+}
+
+	.bottom-banner img{
+		display: block;
+		margin: 20px auto 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+.bottom-banner {
+	display:block;
+	background-position: 43% 0px;
+}
+	
+	.bottom-banner img{
+	height: auto !important;
+    width: 60% !important;
+}
+.bottom-banner .banner__content{
+	padding: 55px 0px;
+	padding-bottom: 55px;
+}
+	
+}
+
+.page-template-services-fire .section__1{
+	padding-bottom: 0px;
+}
+
+.services-sub .section__1 p {
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #2b2e34;
+    margin: 0 auto 20px;
+}
+
+
+@media screen and (max-width: 680px) {
+.mob-smaller {
+	width: 100px;
+}
+}
+
+.services #proptech .section__header{
+	background-color: #9832b8;
+}
+
+.services #proptech .section__4-1 h2{
+	color: #9832b8;
+}
+
+.services #proptech .wrapper{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.services #proptech .section__container{
+	background: none;
+	width: 50%;
+	margin: 0px;
+	padding: 35px 0px;
+	margin: 35px 0px
+}
+
+.services #proptech .section__container.right-col{
+	background: rgba(255, 255, 255, 0.6);
+	padding: 45px 45px 10px 45px;
+}
+
+.services #proptech .section__container.right-col h2{
+	font-size: 19px;
+	line-height: 31px;
+	margin-bottom: 0px
+}
+
+.services #proptech .section__container.right-col ul{
+	font-size: 0.9em;
+	line-height: 1.3em;
+   margin: 0 0 0.5em 0.5em;
+}
+
+.services #proptech .blurb {
+	display: flex;
+	align-items: center;
+	margin-top: 35px;
+}
+
+.services #proptech .blurb img{
+	width: 90px;
+	margin-right: 15px;
+}
+
+.services #proptech .blurb b{
+	font-size: 1.3em	
+}
+
+.services #proptech .blurb p,
+.services #proptech .blurb a{
+	color:#9832b8;
+	font-size: 1.1em;
+}
+
+@media screen and (max-width: 480px) {
+	.services #proptech .section__container{
+		width: 100%;
+	}
+	
+	.about .components__layout-8--about ul li,  .about .components__layout-9--about ul li, .about .components__layout-10--about ul li{
+	width: 50%;
+}
+	
+	.about .components__layout-8--about ul li .icon__wrapper, .about .components__layout-9--about ul li .icon__wrapper, .about .components__layout-10--about ul li .icon__wrapper{
+		margin-bottom: 0px;
+	}
+	
+	.about .components__layout-8--about ul li .icon__position, .about .components__layout-9--about ul li .icon__position, .about .components__layout-10--about ul li .icon__position{
+		line-height: 1.3em;
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+	
+	.about .components__layout-8--about ul li .icon__name, .about .components__layout-9--about ul li .icon__name, .about .components__layout-10--about ul li .icon__name{
+		line-height: 1.3em !important;
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	
+}
+
+#leaders .icon__wrapper img{
+	background: #f1f1f1;
+}
+
+
+.services .section__3-2 .section__row-bottom h2{
+	font-size: 40px;
+    line-height: 45px;
+}
+
+#advisory .btn.btn-md{
+	margin-top: 10px;
+}
+
+.news-post-spark.blog .post__title h1{
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+
+.news-post-spark.blog .news-post__content p, .news-post-spark.blog .news-post__content table, .news-post-spark.blog .news-post__content ul li {
+
+font-size: 16px;
+
+line-height: 25px;
+
+color: #2b2e34;
+
+}
+
+#leaders .icon__wrapper img{
+	height: 200px;
+}
+
+.about .components__layout-8--about ul li .icon__wrapper{
+	height: 200px;
+}
+
+.dropbtn {
+  background-color: #7fb539;
+  color: white;
+  padding: 16px;
+  font-size: 1em;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+	font-size: 14px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+@media screen and (min-width:840px){
+	.breadcrumbs .desktop-d{ display: flex;}
+    .breadcrumbs .mobile-d{ display: none;}
+}
+
+@media screen and (max-width:839px){
+	.breadcrumbs .wrapper{
+		display: flex;
+	justify-content: center;
+	}
+	.breadcrumbs .desktop-d{ display: none;}
+    .breadcrumbs .mobile-d{ display: block;}
+}
+
+@media screen and (max-width: 480px){
+	.community__button,
+	.about-responsible .responsible__pdf-list li,
+	.services .section__1 ul li,
+	.data-tech .section__2 ul li,
+	.sector .section__download li{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	
+	.about .components__layout-5--about a,
+	.about-responsible .responsible__pdf-list li a,
+	.services .section__1 li a,
+	.data-tech .section__2 ul li a,
+	.data-tech a,
+	.sector .section__download li a,
+	.sector .section__content-text a{
+		width: fit-content !important;
+		padding: 8px 25px;
+		margin:0px 10px;
+		text-align: center;
+		line-height: 1.3em;
+		height: auto;
+	}
+	
+	.data-tech a,
+	.sector .section__content-text a{
+		display: block;
+    margin: auto;
+	}
+	
+	
+}
+
+.page-template-data-technology .section__5{display: none;}
+
+.components.components__layout-6--about img{
+	height:180px
+}
+
+.components.components__layout-6--about .icon__list{
+	width: 640px;
+	margin: auto;
+}
+
+@media (max-width:480px){
+	.components.components__layout-6--about .icon__list{
+		width: 300px !important;
+		margin: auto;
+	}
+	
+	.components.components__layout-6--about .icon__list li{
+		margin: 10px;
+	}
+}		</style>
+		        
+    <script type="application/ld+json">
+        {
+            "@context": {
+                "@vocab": "http://schema.org/"
+            },
+            "@graph": [{
+                    "@id": " ",
+                    "@type": "Organization",
+                    "name": "Grosvenor Engineering Group",
+                    "url": "https://gegroup.com.au/work-with-us/",
+                    "logo": "https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/logo.png"
+                },
+                {
+                    "@type": "LocalBusiness",
+                    "parentOrganization": {
+                        "name": "Grosvenor Engineering Group"
+                    },
+                    "name": "Grosvenor Engineering Group",
+                    "image": "https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/logo.png",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "76 Heathcote Road",
+                        "addressLocality": "Moorebank",
+                        "addressRegion": "NSW",
+                        "postalCode": "2170",
+                        "telephone": "(61) 2 9758 9555"
+                    },
+                    "email": "mailto: ",
+                    "openingHours": [" "],
+                    "hasmap": " "
+                }
+            ]
+        }
+
+    </script>    
+
+
+    <!-- #masthead --><section class="work">
+    <div class="banner banner--home banner-desktop" style="background-image: url('https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/12/work-with-us-banner.jpg'); background-size: cover; background-position: center;">
+        <div class="wrapper flex ">
+              <div class="banner__content">
+                    <h1 class="mb-20 title aos-init aos-animate" data-aos="fade-right">Grow With <br><span>Grosvenor</span></h1>
+                    
+          <p class="mb-30 content aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">Building growth. Building futures.</p>
+                            </div>
+      </div>
+    </div>
+  
+  
+  <div class="banner banner--home banner-mobile" style="background-image: url('https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/12/work-with-us-banner.jpg')">
+        <div class="wrapper flex justify-content-end align-items-center">
+              <div class="banner__content">
+                    <p class="mb-20 title aos-init aos-animate" data-aos="fade-right">Grow With <br><span>Grosvenor</span></p>
+                    
+          <p class="mb-30 content aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">Building growth. Building futures.</p>
+                            </div>
+      </div>
+    </div>
+  
+    <div class="breadcrumbs">
+        <div class="wrapper">
+            <ul data-aos="fade-in" class="desktop-d aos-init aos-animate">
+                <li class="active"><a href="#passionate">Passionate People</a></li>
+                <li><a href="#openings">Current Openings</a></li>
+                <li><a href="#perks">Our Perks</a></li>
+                <li><a href="#teams">Our Teams</a></li>
+                <li><a href="#apprenticeships">Apprenticeships</a></li>
+                <li><a href="#graduates">Our Graduates</a></li>
+                <li><a href="#purpose">Our Purpose &amp; Values</a></li>
+            </ul>
+            
+            <div class="dropdown mobile-d">
+              <button class="dropbtn">Passionate People</button>
+              <div class="dropdown-content">
+				<a href="#passionate">Passionate People</a>
+                <a href="#openings">Current Openings</a>
+                <a href="#perks">Our Perks</a>
+                <a href="#teams">Our Teams</a>
+                <a href="#apprenticeships">Apprenticeships</a>
+                <a href="#graduates">Our Graduates</a>
+                <a href="#purpose">Our Purpose &amp; Values</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="work__content">
+        <div id="passionate" class="section__1">
+            <div class="wrapper aos-init aos-animate" data-aos="fade-right">
+
+                <h2>Passionate people</h2>
+
+                <div class="section_text">
+                    We believe our people are our most valuable asset. As a successful, growing Australian owned business we recognise it is our exceptional team of people who truly make things happen. Our people hail from all corners of the world with all types of skills and expertise – but we’re all passionate about the same thing – delivering the best! We bring the best minds to the latest innovations to improve our industry. We work together and we work hard, but we have fun and celebrate our successes.
+                </div>
+
+                <a href="/about-us/people" class="btn btn-sm btn--green">
+                    <span>Read more</span></a>
+
+            </div>
+
+                        <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2020/03/new-image.jpg" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2020/03/new-image.jpg"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2020/03/new-image.jpg" alt=""></noscript>
+        </div>
+
+        <div id="openings" class="section__2">
+            <div class="wrapper aos-init aos-animate" data-aos="fade-down">
+
+                <h2>Current Openings</h2>
+
+                <p>Our openings can change daily, so visit us often to see if there is a job right for you.</p>
+
+                <a href="https://www.seek.com.au/Grosvenor-Engineering-Group-jobs" target="_blank" class="btn btn-md btn--download btn--green">
+                    <span>View openings</span></a>
+            </div>
+        </div>
+
+        <div id="perks" class="section__3">
+            <div class="wrapper">
+
+                <h2 data-aos="fade-down" class="aos-init aos-animate">Our Perks</h2>
+
+                <ul>
+                                                            <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Employee Assistance Programs</h3>
+                            <p>No matter what life challenge you face, Acacia Connection’s Professional Counselling support can help with any issues you may be facing in your personal or work life  </p>
+                        </div>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Roadside Assistance</h3>
+                            <p>Keep yourself on the road! Great discounts available 
+with our Fleet Service Provider</p>
+                        </div>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Health Insurance Discounts</h3>
+                            <p>Depending on personal circumstances, receive up to 12% discount on you health insurance premium
+</p>
+                        </div>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Novated Leasing</h3>
+                            <p>Thinking of buying a vehicle? Our Fleet Service Provider will give you a plan that saves you money, time &amp; hassles</p>
+                        </div>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Car Discounts</h3>
+                            <p>Employees with a vehicle allowance or novated lease, find a Toyota or Isuzu dealership closest to you for car discounts </p>
+                        </div>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Domestic Travel Offers</h3>
+                            <p>Need a break? Discounts on flights, accommodation &amp; car hire </p>
+                        </div>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Electricity and Gas Discounts</h3>
+                            <p>Big bills? Receive discounts on Electricity &amp; Gas for personal use</p>
+                        </div>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Tools Discounts</h3>
+                            <p>Receive a 10-20% discount on the latest &amp; greatest tools and accessories </p>
+                        </div>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Salary Continuance Insurance </h3>
+                            <p>Receive up to 2 years salary to support you through injury or illness</p>
+                        </div>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="section__listing section__listing--perks">
+                            <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png"><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img  alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/themes/grosvenor/assets/dist/images/checklist.png" alt=""></noscript>
+                            <h3>Professional Development &amp; Education</h3>
+                            <p>We encourage and support our employees to better themselves. T&amp;C’s apply</p>
+                        </div>
+                    </li>
+                                        
+                </ul>
+            </div>
+        </div>
+
+        <div id="teams" class="section__4" style="background-image:url('https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/12/work-with-us-perk-bg.jpg')">
+            <div class="wrapper">
+                <h2 data-aos="fade-down" class="aos-init aos-animate">Our Teams</h2>
+                <p data-aos="fade-down" class="aos-init aos-animate">Grosvenor offers positions in a variety of locations across Australia. We are constantly on the look-out for people who are passionate, inquisitive and focused on excelling in everything they do, whatever their discipline. </p>
+
+                <ul>
+                                                            <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                                                <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-472.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-472.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-472.png" alt=""></noscript>
+                        <h3>Technical Trades  HVAC, Fire &amp; Electrical</h3>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                                                <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-463.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-463.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-463.png" alt=""></noscript>
+                        <h3>Engineering and Design</h3>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                                                <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-470.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-470.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-470.png" alt=""></noscript>
+                        <h3>Human Resources</h3>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                                                <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-464.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-464.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-464.png" alt=""></noscript>
+                        <h3>Finance</h3>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                                                <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-468.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-468.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-468.png" alt=""></noscript>
+                        <h3>Technology</h3>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                                                <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-473.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-473.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-473.png" alt=""></noscript>
+                        <h3>Sales and  Marketing</h3>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                                                <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-466.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-466.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-466.png" alt=""></noscript>
+                        <h3>Administration  and Support</h3>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                                                <img alt="" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-465.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-465.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-465.png" alt=""></noscript>
+                        <h3>Workplace Health  and Safety</h3>
+                    </li>
+                                        
+                </ul>
+            </div>
+        </div>
+
+        <div id="apprenticeships" class="section__5">
+            <div class="wrapper">
+
+                <div class="section__content-text aos-init aos-animate" data-aos="fade-right">
+                    <h2>Apprenticeships</h2>
+
+                    <div class="section_text">
+                        Each year we offer a number of positions to motivated people who are keen to learn a trade and start a career in the mechanical and electrical industry, across our HVAC, Fire or Electrical businesses’.  Our apprenticeships are guaranteed to provide you with challenging and interesting opportunities and the chance to learn from some of the best in the industry. Upon successfully completing your apprenticeship, you will be fully certified and eligible to apply for a technical role within our business.
+<br><br>
+Email: <strong>careers@gegroup.com.au</strong>
+<br><br>
+                    </div>
+
+
+                    <a href="mailto:careers@gegroup.com.au" class="btn btn-md button--download btn--green"><span>Submit your CV</span></a>
+                </div>
+                <div class="section__content-image">
+                                        <img alt="Grosvenor-Engineering-Group-apprenticeships" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Grosvenor-Engineering-Group-apprenticeships.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Grosvenor-Engineering-Group-apprenticeships.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Grosvenor-Engineering-Group-apprenticeships.png" alt="Grosvenor-Engineering-Group-apprenticeships"></noscript>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="graduates" class="section__6">
+            <div class="wrapper">
+
+                <div class="section__content-image">
+                                        <img alt="Grosvenor-Engineering-Group-Graduates" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Grosvenor-Engineering-Group-Graduates.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Grosvenor-Engineering-Group-Graduates.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Grosvenor-Engineering-Group-Graduates.png" alt="Grosvenor-Engineering-Group-Graduates"></noscript>
+                </div>
+
+                <div class="section__content-text aos-init aos-animate" data-aos="fade-left">
+                    <div class="section__col-right">
+                        <h2>Our Graduates</h2>
+
+                        <div class="section_text">
+                            Recently graduated from university? Looking to kick-start your career working for a successful company? We offer opportunities for graduates across our business – from Finance and Engineering, to Information Technology. Many of our graduates have continued on at Grosvenor, with successful careers.
+<br><br>
+Email: <strong>careers@gegroup.com.au</strong><br><br>
+
+
+                        </div>
+
+                        <a href="mailto:careers@gegroup.com.au" class="btn btn-md button--download btn--green"><span>Submit your CV</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="purpose" class="section__7 components components__layout-3--about">
+            <div class="wrapper">
+                <h2 data-aos="fade-right" class="aos-init aos-animate">Our Purpose <span>&amp; Values. </span></h2>
+                <h3 data-aos="fade-right" class="aos-init aos-animate">To enrich people’s lives by transforming the built environment</h3>
+                <ul class="icon__list">
+                                                            <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="icon__wrapper">
+                            <img alt="icon" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-737.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-737.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-737.png" alt="icon"></noscript>
+                        </div>
+                        <p class="icon__title">Safety</p>
+
+                        <p class="icon__text">We are relentless about ensuring everyone returns home safe and well every day.</p>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="icon__wrapper">
+                            <img alt="icon" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-743.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-743.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-743.png" alt="icon"></noscript>
+                        </div>
+                        <p class="icon__title">Agility</p>
+
+                        <p class="icon__text">Our data enables us to be curious, proactive and deliver the best outcomes.</p>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="icon__wrapper">
+                            <img alt="icon" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-749.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-749.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-749.png" alt="icon"></noscript>
+                        </div>
+                        <p class="icon__title">Balance</p>
+
+                        <p class="icon__text">We encourage everyone to  find their own ideal  balance between work and life.</p>
+                    </li>
+                                        <li data-aos="fade-down" data-aos-delay="200" class="aos-init aos-animate">
+                        <div class="icon__wrapper">
+                            <img alt="icon" data-src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-790.png" class=" ls-is-cached lazyloaded" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-790.png"><noscript><img src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/11/Group-790.png" alt="icon"></noscript>
+                        </div>
+                        <p class="icon__title">Partnerships</p>
+
+                        <p class="icon__text">Diverse backgrounds, thinking and skills, working together, make us a force to be reckoned with.</p>
+                    </li>
+                                                        </ul>
+
+                <div class="component__hashtag">
+                    <div class="component__hashtag-button aos-init aos-animate" data-aos="fade-up">#WE ARE GROSVENOR</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<div class="backtotop">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-arrow-up fa-w-14 fa-3x">
+        <path fill="currentColor" d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z" class=""></path>
+    </svg>
+</div>
+
+
+<!-- font handler -->
+    <script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/gegroup.com.au\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/plugins/contact-form-7/includes/js/scripts.js" id="contact-form-7-js"></script>
+
+
+
+<script type="text/javascript" id="forms-for-campaign-monitor-ajax-script-public-js-extra">
+/* <![CDATA[ */
+var ajax_request = {"ajax_url":"https:\/\/gegroup.com.au\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/plugins/forms-for-campaign-monitor/forms/views/public/js/app.js" id="forms-for-campaign-monitor-ajax-script-public-js"></script>
+<script type="text/javascript" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js" id="smush-lazy-load-js"></script>
+<script type="text/javascript" src="https://d37fqyvfmjqdzm.cloudfront.net/wp-includes/js/wp-embed.min.js" id="wp-embed-js"></script>
+
+
+
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 104/279 objects using disk
+Page Caching using disk: enhanced 
+Content Delivery Network via Amazon Web Services: CloudFront: d37fqyvfmjqdzm.cloudfront.net
+
+Served from: gegroup.com.au @ 2021-01-14 20:02:43 by W3 Total Cache
+--><!-- jquery version: 3.5.1 --><!-- jquery version: 3.5.1 -->
+</main>
