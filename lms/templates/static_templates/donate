@@ -1,0 +1,30 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("About Enstructo")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>
+            <%block name="pageheader">${page_header or _("About Us")}</%block>
+        </h1>
+        <%block name="pagecontent">
+          <p class="about-block">
+            Enstructo Incorporated was created to fill a gap we found in the eLearning ecosystem, online education platforms have become an invaluable resource for Continuing Professional Education; but often, you’re forced to wade through seemingly endless, unrelated courses.
+          </p>
+          <hr class="rule" />
+          <p class="about-block">
+            We are an eLearning community focused on content directly relevant to the CPE requirements of InfoSec certifying bodies including CompTIA, (ISC)<sup>2</sup>, ISACA, EC-Council and IAPP. We believe&#151;above all&#151;in flexible; engaging; and, most importantly, high quality content. By hosting only vetted content directly related to Information Security and Data Privacy, we have created a platform specifically tailored to Data Privacy and InfoSec professionals, you won’t find any courses teaching you how to bake a cheesecake, ace your SAT or break into the IT field.
+          </p>
+          <hr class="rule" />
+          <p class="about-block">
+            The Enstructo eLearning Platform offers a convenient and feature-rich user experience: optimized for smartphones, tablets and desktop browsers so you can work on your continuing education in your precious spare time, wherever you are.
+          </p>
+          <hr class="rule" />
+          <p class="about-block">
+            We work with our content creators, or Enstructors, as partners. All of our content is sourced from experienced professionals working in Information Security and Data Privacy. Content remains the intellectual property of its respective creator and is vetted for quality before it is published. The Enstructo eLearning Platform utilizes content including, but not limited to: HTML, audio lectures, video lessons, and SCORM conformant packages.
+          </p>
+        </%block>
+    </section>
+</main>
