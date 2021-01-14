@@ -2702,6 +2702,7 @@ div.container-fluid.wrapper-footer {
     border-top: 1px solid #c5c6c7;
     background: rgba(0, 74, 152, 1);
     padding: 25px 2% 30px;
+    max-width: none;
     footer {
         line-height: 1em;
         .row {
