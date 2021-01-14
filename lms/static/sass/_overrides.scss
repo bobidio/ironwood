@@ -2701,6 +2701,7 @@ body.view-in-course {
 div.container-fluid.wrapper-footer {
     @include all-shadows(0,-1px,5px,0,rgba(0,0,0,0.1));
     border-top: 1px solid #c5c6c7;
+    background: rgba(0, 74, 152, 1);
     padding: 25px 2% 30px;
     footer {
         line-height: 1em;
