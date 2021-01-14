@@ -3264,6 +3264,10 @@ div.container-fluid.wrapper-footer {
 //Footer Overrides
 
 footer#footer-openedx {
+	a{
+        color: $off-white !important;
+        }
+    color: rgba(255, 255, 255, 1);
     @include noselect;
     a:hover {
         border-bottom: none !important;
