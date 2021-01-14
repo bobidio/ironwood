@@ -64,7 +64,24 @@ from openedx.core.djangoapps.lang_pref.api import header_language_selector_is_en
 </%block>
 
 <header class="global-header ${'slim' if course else ''}" style="border-color: #0079bc;">
-    <div class="main-header">
+    
+
+           <nav class="top-header" aria-label="About" style="
+       padding-top: 35px;
+    background: #004a98;
+">
+
+                <a id="contact" href="/support/contact_us" style="
+    color: #fff;
+    padding-left: 40px;
+
+">Contact</a>
+
+
+    <div class="main-header" style="
+    padding-top: 25px;
+    background: #fff;">
+
         <%include file="navbar-logo-header.html" args="online_help_token=online_help_token"/>
         <div id="hamburger-menu" class="hamburger-menu" role="button" aria-label=${_("Options Menu")} aria-expanded="false" tabindex="0">
             <span class="line"></span>
