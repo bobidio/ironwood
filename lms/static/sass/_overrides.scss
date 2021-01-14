@@ -865,10 +865,10 @@ section.home {
          background-color: $hover-blue;
          background-image: url('../images/home-bg-2.jpg');
          .outer-wrapper {
-             animation: none !important; //stop irritating homepage animation...
-             padding: 60px 0;
+             //animation: none !important; //stop irritating homepage animation...
+             padding: 141px 0;
              @media (max-width: 600px) {
-                  padding: 20px;
+                  padding: 40px;
              }
              .title {
                  background: rgba(100, 170, 214, 0.0);
