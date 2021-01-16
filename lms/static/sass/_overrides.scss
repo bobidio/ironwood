@@ -37,7 +37,7 @@ $hover-blue: $link-hover;
 $text-tint: tint($base-font-color, 75%);
 $text-shade: shade($base-font-color, 25%);
 $border: 1px solid $border-gray;
-$default-font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$default-font: Roboto, sans-serif;
 
 
 //Theme-Specific Mixins
