@@ -863,7 +863,8 @@ section.home {
      background: white;
      #homepage-header {
          background-color: $hover-blue;
-         background-image: url('../images/home-bg-2.jpg');
+	 background-image: url('https://d37fqyvfmjqdzm.cloudfront.net/wp-content/uploads/2019/12/home-bg-1.jpg');
+        // background-image: url('../images/home-bg-2.jpg');
          .outer-wrapper {
              //animation: none !important; //stop irritating homepage animation...
              padding: 141px 0;
