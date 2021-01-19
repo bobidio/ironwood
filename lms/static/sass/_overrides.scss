@@ -419,6 +419,7 @@ header.global-header {
                 div.mobile-nav-item {
                     margin: -4px 2.5px 0;
                     a.navbar {
+			font-family: Roboto, sans-serif;
                         padding: 10px 20px;
                         @include trans-stand;
                     }
