@@ -1267,7 +1267,7 @@ section.home {
         font-style: normal;
         line-height: 1em;
         *:not(.fa) {
-            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-family: Roboto, sans-serif;
         }
         
     }
@@ -1504,7 +1504,7 @@ section.course-info {
                 p,
                 li,
                 span {
-                    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+                    font-family: Roboto, sans-serif;
                     font-size: 99%;
                 }
                 h2 {
@@ -1690,7 +1690,7 @@ section.course-info {
                                 margin-left: auto;
                                 width: 44%;
                                 font-size: 0.83em;
-                                font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+                                font-family: Roboto, sans-serif;
                                 h4 {
                                     line-height: 100%;
                                 }
@@ -2830,7 +2830,7 @@ div.container-fluid.wrapper-footer {
 //////////////////////////////////////////
 //Contact Form Overrides
 .contact-body-wrappers {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-family: Roboto, sans-serif;
     font-size: 1rem !important;
     font-style: normal !important;
     line-height: 1em !important;
@@ -3208,7 +3208,7 @@ div.container-fluid.wrapper-footer {
                 width: calc(100% - 20px);
                 padding: 5px;
                 font-style: normal !important;
-                font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+                font-family: Roboto, sans-serif;
                 font-weight: normal !important;
                 &::placeholder {
                     color: inherit;
