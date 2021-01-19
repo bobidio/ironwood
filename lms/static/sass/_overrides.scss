@@ -974,7 +974,7 @@ section.home {
                 text-align: left !important;
             }
             #browse-outer-wrapper {
-                overflow: visible;
+                overflow: hidden;
                 min-height:900px;
                 max-width: 100vw;
             }
@@ -1833,16 +1833,16 @@ section.course-info {
                         .play-intro {
                             background-image: -webkit-linear-gradient(-90deg, rgba(0,0,0,0.65), rgba(0,0,0,0.75));
                             background-image: linear-gradient(-90deg, rgba(0,0,0,0.65), rgba(0,0,0,0.75));
-                            border-radius: 8px;
+                            border-radius: 4px;
                             box-shadow: 0 1px 12px 0 rgba(0,0,0,0.4);
-                            border: 1px solid rgba(255,255,255,0.8);
-                            height: 60px;
+                            border: 2px solid rgba(255,255,255,0.8);
+                            height: 100px;
                             left: 50%;
-                            margin-top: 0px;
-                            margin-left: -30px;
+                            margin-top: -50px;
+                            margin-left: -50px;
                             position: absolute;
                             top: 50%;
-                            width: 60px;
+                            width: 100px;
                             &::after {
                                 color: rgba(255,255,255,0.8);
                                 content: "\25B6";
