@@ -16,19 +16,11 @@
         <div class="col-md-9">
           <nav class="navbar site-nav navbar-expand-sm" aria-label="${_('About')}">
             <ul class="navbar-nav">
-           <ol>
-              <li class="nav-colophon-01">
-                <a id="about" href="/about">About</a>
-              </li>
-              <li class="nav-colophon-02">
-                <a id="blog" href="/blog">Blog</a>
-              </li>
-              <li class="nav-colophon-03">
-                <a id="work" href="/work">Work With Us</a>
-              </li>
-
-
-          </ol>
+              % for item_num, link in enumerate(footer['navigation_links'], start=1):
+                <li class="nav-item">
+                  <a class="nav-link" href="${link['url']}">${link['title']}</a>
+                </li>
+              % endfor
             </ul>
           </nav>
           <div class="wrapper-logo">
@@ -93,19 +85,12 @@ background-color: #fbfbfb;
       <div class="colophon">
         <nav class="nav-colophon" aria-label="${_('About')}">
           <ol>
-              <li class="nav-colophon-01">
-                <a id="about" href="/about">About</a>
+              % for item_num, link in enumerate(footer['navigation_links'], start=1):
+              <li class="nav-colophon-0${item_num}">
+                <a id="${link['name']}" href="${link['url']}">${link['title']}</a>
               </li>
-              <li class="nav-colophon-02">
-                <a id="blog" href="/blog">Blog</a>
-              </li>
-              <li class="nav-colophon-03">
-                <a id="work" href="/work">Work With Us</a>
-              </li>
-
-
+              % endfor
           </ol>
-
         </nav>
 
         % if context.get('include_language_selector', footer_language_selector_is_enabled()):
