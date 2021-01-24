@@ -582,6 +582,7 @@ header.global-header {
                 border-radius: 2px;
             }
             button {
+		text-align: inherit;
                 @include btn($full...);
                 &.forgot-password {
                     margin-bottom: 0;
