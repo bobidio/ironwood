@@ -53,11 +53,7 @@ from six import text_type
             <a class="sign-in-btn btn navbar" href="${reverse('course-specific-login', args=[text_type(course.id)])}${login_query()}">${_("Sign in")}</a>
           </div>
         % else:
-          % if allow_public_account_creation:
-            <div class="mobile-nav-item hidden-mobile nav-item">
-              <a class="register-btn btn navbar" href="/register${login_query()}">${_("Register")}</a>
-            </div>
-          % endif
+         
           <div class="mobile-nav-item hidden-mobile nav-item">
             <a class="sign-in-btn btn navbar" href="/login${login_query()}">${_("Sign in")}</a>
           </div>
