@@ -46,9 +46,7 @@ from six import text_type
     <div>
       % if allows_login:
         % if restrict_enroll_for_course:
-          <div class="mobile-nav-item hidden-mobile nav-item">
-            <a class="register-btn btn navbar" href="${reverse('course-specific-register', args=[text_type(course.id)])}">${_("Register")}</a>
-          </div>
+
           <div class="mobile-nav-item hidden-mobile nav-item">
             <a class="sign-in-btn btn navbar" href="${reverse('course-specific-login', args=[text_type(course.id)])}${login_query()}">${_("Sign in")}</a>
           </div>
