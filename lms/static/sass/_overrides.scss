@@ -427,6 +427,11 @@ header.global-header {
                         border: 1px solid $hover-blue;
                         text-transform: uppercase;
                     }
+		    a.register-btn {
+			visibility: hidden;
+			border: 1px solid $hover-blue;
+			text-transform: uppercase;
+		    }
                 }
                 #toggle-dropdown, #toggle-dropdown > .fa {
                     transition: 0.35s all linear;
