@@ -1960,6 +1960,14 @@ section.course-info {
                 }
             }
             ul.listing-courses {
+		   display: grid;
+   		   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+   		   grid-auto-rows: auto;
+ 		   grid-gap: 3rem;
+  		   grid-auto-columns: max-content;
+  		   margin: 0;
+   		  padding: 0;
+   		  text-indent: 0;
                 span.header-completed {
                   display: inline-block;
                   margin: 12px 5px 10px;
@@ -1986,21 +1994,27 @@ section.course-info {
                 li.course-item {
                     margin-bottom: 0;
                     div.course-container {
-                        border: 2px solid $mid-gray;
-                        border-radius: 4px;
-                        padding: 15px;
+			box-shadow: 0 20px 50px rgb(0 0 0 / 60%);
+ 			background-color: #ffffff;
+ 			max-width: 300px;
+ 			border: none;
                         background-color: $light-gray;
                         article.course {
-                            border: 1px solid $base-gray;
+                            border: none;
                             border-radius: 2px;
                             padding: 5px;
                             background-color: $off-white;
                             div.wrapper-course-image {
-                                display: flex;
-                                height: 150px;
+			       float: none;
+		               margin-right: unset;
+		               width: unset;
+		               height: 15rem;
+		               display: block;
+		               overflow: visible;
+		               max-height: 15rem;
                                 img {
-                                    max-height: 150px;
-                                    object-fit: scale-down;
+					max-height: 15rem;
+					object-fit: scale-down;
                                 }
                             }
                             div.wrapper-course-details {
