@@ -2151,15 +2151,7 @@ section.course-info {
                                 }
                             }
                         }
-                    }
-                }
-                a {
-                    color: $text-shade;
-                    &:hover {
-                        color: $text-tint;
-                    }
-                }
-		            &:hover {
+			 		            &:hover {
             border: 1px solid #bebebe;
             box-shadow: 0 1px 4px 0 rgba(0,121,188,0.4);
             border-bottom: 3px solid $hover-blue;
@@ -2168,7 +2160,16 @@ section.course-info {
                 color: $hover-blue;
                 @include trans-stand;
             }
-        }
+        }   
+                    }
+                }
+                a {
+                    color: $text-shade;
+                    &:hover {
+                        color: $text-tint;
+                    }
+                }
+
             }
         }
         @media screen and (min-width: 992px) {
