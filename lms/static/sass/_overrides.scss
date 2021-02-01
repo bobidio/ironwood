@@ -2020,6 +2020,9 @@ section.course-info {
                                 }
                             }
                             div.wrapper-course-details {
+				display: block;
+				padding-left: 5px;
+    				padding-right: 5px;
                                 height: 150px;
                                 .course-title {
                                     a:hover span {
