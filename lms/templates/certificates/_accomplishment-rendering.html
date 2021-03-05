@@ -1,0 +1,127 @@
+<%! from django.utils.translation import ugettext as _ %>
+<%namespace name='static' file='../static_content.html'/>
+<%
+course_mode_class = course_mode if course_mode else ''
+cpe = course_id[-2:]
+cpe = float(cpe[0]+'.'+cpe[1])
+%>
+<script>
+    window.onload=function() {
+        document.getElementById("certificateURL").innerHTML = window.location.toString();
+    };
+</script>
+
+<main class="accomplishment accomplishment-main">
+
+    <div class="wrapper-accomplishment-rendering">
+        <div class="accomplishment-rendering">
+            <span class="deco-corner deco-corner-tl"></span>
+            <span class="deco-corner deco-corner-tr"></span>
+            <span class="deco-corner deco-corner-bl"></span>
+            <span class="deco-corner deco-corner-br"></span>
+
+            <div class="accomplishment-type">
+                ##<span class="accomplishment-type-symbol">
+                   ## <img class="src" src="/static/certificates/images/ico-${course_mode_class}.png" alt="">
+                ##</span>
+
+                ##<span class="accomplishment-type-label hd-4">${document_title}</span>
+            </div>
+            <div id="logo-large">
+              <a class="logo" target="_blank" href="${marketing_link('ROOT')}">
+                <img class="logo-img" height="125px" src="https://s3-us-west-2.amazonaws.com/enstructoalpha/owl.png" alt="Enstructo Home"></img>
+              </a>
+            </div>
+            <div class="wrapper-statement-and-signatories">
+                <div class="accomplishment-statement">
+                    <p class="accomplishment-statement-lead">
+                        <strong class="accomplishment-recipient hd-1 emphasized">${accomplishment_copy_name | h}</strong>
+                        <span class="accomplishment-summary copy copy-lead">${accomplishment_copy_description_full}</span>
+
+                        <span class="accomplishment-course hd-1 emphasized">
+                            <span class="accomplishment-course-number">${course_number}</span>:
+                            <span class="accomplishment-course-name">${accomplishment_copy_course_name}</span>
+                        </span>
+                    </p>
+                    <%
+                      if str(cpe).endswith('.0'):
+                          cpe = int(cpe)
+                      else:
+                          pass
+                      hour_tag = ""
+                      if cpe > 1:
+                          hour_tag = "hours"
+                      else:
+                          hour_tag = "hour"
+                    %>
+                    % if cpe != 0.0: 
+                      <p class="accomplishment-statement-detail copy copy-lead">Earning ${cpe} CPE ${hour_tag}</p>
+                    % endif
+                </div>
+
+                % if mode != 'base':
+                <div class="accomplishment-signatories">
+                    <h3 class="accomplishment-signatories-title sr-only">${_("Noted by")}</h3>
+
+                    <div class="wrapper-signatories">
+                        <div class="list-signatories">
+                            % if certificate_data:
+                                % for signatory in certificate_data.get('signatories', []):
+                                <div class="signatory">
+                                    % if signatory['signature_image_path']:
+                                    <img class="signatory-signature" src="${static.url(signatory['signature_image_path'])}" alt="${signatory['name']}">
+                                    % endif
+                                    <h4 class="signatory-name hd-5">${signatory['name']}</h4>
+                                    <p class="signatory-credentials copy copy-micro">
+                                        <span class="role">${signatory['title']}</span>
+                                        <span class="organization">${signatory['organization']}</span>
+                                    </p>
+                                </div>
+                                % endfor
+                            % endif
+                        </div>
+                    </div>
+                </div>
+                % endif
+            </div>
+
+            <div class="accomplishment-orgs">
+                <h3 class="accomplishment-orgs-title sr-only">${_("Supported by the following organizations")}</h3>
+<!--
+                <ul class="wrapper-orgs list-orgs">
+                    <li class="wrapper-organization">
+                        <div class="organization organization-edX">
+                            <img class="organization-logo" src="https://s3-us-west-2.amazonaws.com/enstructoalpha/owl.png" height="45px" alt="${platform_name}">
+                        </div>
+                    </li>
+
+                    % if organization_logo:
+                    <li class="wrapper-organization">
+                        <div class="organization">
+                            <img class="organization-logo" src="${organization_logo.url}" alt="${platform_name}">
+                        </div>
+                    </li>
+                    % endif
+                </ul> -->
+            </div>
+            <div class="wrapper-accomplishment-metadata">
+                <div class="accomplishment-metadata">
+                    <div class="wrapper-metadata">
+                            <dl class="metadata accomplishment-id">
+                            <dt class="label copy copy-meta">${certificate_id_number_title}:</dt>
+                            <div id="metadata-id" class="value copy copy-base">${certificate_id_number}</div>
+                        </dl>
+                        <dl class="metadata accomplishment-date" id="real-date">
+                          <dt class="label copy copy-meta">${certificate_date_issued_title}</dt>
+                          <dd style="font-weight:bold;" class="value copy copy-base">${certificate_date_issued}</dd>
+                        </dl>
+                        <dl class="metadata accomplishment-date">
+                           <dt class="label copy copy-meta">Certificate URL:</dt>
+                           <div id="certificateURL" class="value copy copy-base"></div>
+                        </dl>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>    
+</main>

@@ -1,0 +1,221 @@
+<%namespace name='static' file='/static_content.html'/>
+<%! from django.utils.translation import ugettext as _ %>
+
+<%
+# set doc language direction
+from django.utils.translation import get_language_bidi
+dir_rtl = 'rtl' if get_language_bidi() else 'ltr'
+course_mode_class = course_mode if course_mode else ''
+%>
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head dir="${dir_rtl}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>${document_title}</title>
+
+    <%static:css group='style-certificates'/>
+</head>
+##Temporary Force Styling fix
+<style>
+@media screen and (max-width: 768px) {
+    #certificateURL {
+        font-size: 1em !important;
+        padding-top: none !important;
+    }
+    #metadata-id {
+        font-size: 1em !important;
+        padding-top: none !important;
+    }
+    #certURL {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .metadata:not(#real-date) {
+        width: calc(43.3333333333% - 1rem);
+    }
+    #real-date {
+        width: calc(13.3333333333% - 1rem);
+    }
+}
+
+body {
+    background: #f5f5f5;
+}
+main.accomplishment {
+    border-bottom: 1px solid #C8C8C8;
+    color: #333 !important;
+}
+.wrapper-header {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.introduction-copy {
+    margin: auto;
+}
+.accomplishment-rendering {
+    background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=dbdbdb&density=9&opacity=50');
+    border: 2px solid #333;
+    border-top-width: 5px;
+}
+.deco-corner-tl,
+.deco-corner-tr {
+    border-top-color: #333 !important;
+}
+.deco-corner-bl,
+.deco-corner-br {
+    border-bottom-color: #333 !important;
+}
+#logo-large {
+    width: auto;
+    margin: auto;
+    margin-bottom: 25px;
+    display: table; 
+    float: none;
+}
+.wrapper-statement-and-signatories {
+    border-top: 1px solid rgb(40,40,40);
+    padding-top: 25px;
+}
+.accomplishment-course {
+    font-weight: 400 !important;
+}
+.accomplishment-statement-lead {
+    margin-bottom: 0 !important;
+}
+.accomplishment-statement {
+    margin-bottom: 0 !important;
+    border-bottom: 0 !important;
+}
+.accomplishment-signatories {
+    background: rgba(255,255,255,0.5);
+    box-shadow: 2px 1px 2px rgb(40,40,40);
+    border: 1px solid rgb(200,200,200);
+    padding: 10px 0 !important;
+}
+img.signatory-signature {
+    padding: 0.625rem !important;
+    margin: 0 auto !important;
+}
+span.organization {
+    font-weight: bold;
+}
+.wrapper-accomplishment-metadata {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+.wrapper-metadata {
+    height: auto;
+}
+.metadata {
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.wrapper-metadata > dl {
+    height: 100%;
+} 
+wrapper-metadata > .metadata > div {
+    vertical-align: middle;
+}
+.accomplishment-recipient {
+    word-wrap: break-word;
+    padding-bottom: 0 !important;
+}
+#metadata-id {
+    padding-top: 5px;
+    font-size: 0.69em;
+}
+#certificateURL {
+    padding-top: 5px;
+    font-size: 0.69em;
+    color: #111;
+    word-wrap: break-word;
+}
+div.wrapper-about {
+    margin: 1.25rem auto;
+}
+div.wrapper-about a:not(:hover) {
+    color: #333 !important;
+}
+div.wrapper-about a:hover {
+    color: #0079bc !important;
+    text-decoration: none;
+}
+.wrapper-footer {
+    width: 100%;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.1);
+    border-top: 1px solid #c5c6c7;
+    background: #F5F5F5;
+    margin-bottom: 0 !important;
+    padding: 20px 0 2.5rem 0 !important
+}
+footer {
+    display: inline;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-bottom: 15px !important;
+    padding-top: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+footer a:not(:hover) {
+    color: #333 !important;
+}
+footer a:hover {
+    border-color: transparent !important;
+    background: transparent !important;
+    color: #0079bc !important;
+    text-decoration: none !important;
+}
+.footer-app-copyright {
+    width: 50%;
+    float: left;
+    margin-right: 0;
+}
+.footer-app-nav {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    float: right;
+}
+.list-legal {
+    float: right;
+    width: 100%;
+    display: inline;
+}
+li.nav-item {
+    width: auto;
+    display: inline-block !important;
+    float: right;
+    padding-left: 10px !important; 
+}
+
+</style>
+
+<body class="layout-accomplishment view-valid-accomplishment ${dir_rtl} certificate certificate-${course_mode_class}" data-view="valid-accomplishment">
+
+    <div class="wrapper-view" dir="${dir_rtl}">
+
+        <%include file="_accomplishment-header.html" />
+
+        <hr class="divider sr-only">
+
+        ${self.body()}
+
+        <hr class="divider sr-only">
+
+        <%include file="_accomplishment-footer.html" />
+    </div>
+
+    <%include file="_assets-secondary.html" />
+    %if badge:
+        <%include file="_badges-modal.html" />
+    %endif
+</body>
+</html>
